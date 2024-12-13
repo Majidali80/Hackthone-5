@@ -80,7 +80,7 @@ export default function Home() {
                 Monthly
               </h5>
               <div className="rounded-l-[16px] border-t-[1px] border-l-0 border-r-0 border-b-0 border-[#23A6F0] bg-white">
-                <img src="/pr/bt1.png" alt="description" className="w-full h-full object-contain" />
+                <img src="/bt1.png" alt="description" className="w-full h-full object-contain" />
               </div>
               <h5 className="font-Montserrat text-[16px] font-bold leading-[24px] tracking-[0.1px] text-left text-[#252B42]">
                 Yearly
@@ -174,7 +174,7 @@ export default function Home() {
                 <div className="max-w-6xl mx-auto flex justify-center items-center">
                   <div className="">
                     <img
-                      src="/Shop/shop2.png" // Replace with the actual image path
+                      src="/shop2.png" // Replace with the actual image path
                       alt="Shop Image"
                       className="w-[1300px] h-[175px]" // Adjust the size or remove grayscale if needed
                     />
@@ -234,10 +234,10 @@ export default function Home() {
                         {/* Made By Majid Ali */}
               <div className="w-[242px] h-[50px] pt-[10px] flex justify-between items-center mt-5  bg-white mb-32">
                 {/* Social Icons */}
-                <img src="/Team/tw.png" alt="Twitter" className="w-[30px] h-[30px]" />
-                <img src="/Team/facebook.png" alt="Facebook" className="w-[30px] h-[30px]" />
-                <img src="/Team/in.png" alt="Instagram" className="w-[30px] h-[30px]" />
-                <img src="/Team/lk.png" alt="LinkedIn" className="w-[30px] h-[30px]" />
+                <img src="/tw1.png" alt="Twitter" className="w-[30px] h-[30px]" />
+                <img src="/facebook.png" alt="Facebook" className="w-[30px] h-[30px]" />
+                <img src="/in.png" alt="Instagram" className="w-[30px] h-[30px]" />
+                <img src="/lk.png" alt="LinkedIn" className="w-[30px] h-[30px]" />
               </div>
               <Footer />
             </div>

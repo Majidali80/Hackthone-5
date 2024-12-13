@@ -5,10 +5,10 @@ import { useState } from "react"; // Import useState for toggling hamburger menu
 
 // Updated image paths (from the public/Navbar folder)
 const socialIcons = [
-  { src: "/Navbar/12.png", alt: "user" },
-  { src: "/Navbar/6.png", alt: "search" },
-  { src: "/Navbar/7.png", alt: "cart" },
-  { src: "/Navbar/8.png", alt: "mail" },
+  { src: "/12.png", alt: "user" },
+  { src: "/6.png", alt: "search" },
+  { src: "/7.png", alt: "cart" },
+  { src: "/8.png", alt: "mail" },
 ];
 
 export default function Navbar() {

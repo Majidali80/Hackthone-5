@@ -14,17 +14,17 @@ export default function Footer() {
           <div className="flex gap-6 mr-36">
             {/* Direct image URLs for social icons */}
             <img
-              src="/Footer/fb.png" // Replace with the correct path to your image
+              src="/fb.png" // Replace with the correct path to your image
               alt="Facebook"
               className="w-6 h-6"
             />
             <img
-              src="/Footer/ins.png" // Replace with the correct path to your image
+              src="/ins.png" // Replace with the correct path to your image
               alt="Instagram"
               className="w-6 h-6"
             />
             <img
-              src="/Footer/tw.png" // Replace with the correct path to your image
+              src="/tw.png" // Replace with the correct path to your image
               alt="Twitter"
               className="w-6 h-6"
             />

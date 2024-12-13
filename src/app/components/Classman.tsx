@@ -20,7 +20,7 @@ export default function Classman(){
                             </div>
                         </div>
                         <div className="">
-  <Image src="/Classic/cl1.png" alt="picman" width={443} height={685} className="w-full h-full object-cover" />
+  <Image src="/cl1.png" alt="picman" width={443} height={685} className="w-full h-full object-cover" />
 </div>
 
                     </div>

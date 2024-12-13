@@ -20,8 +20,8 @@ export default function ProductCard() {
         {/* Card Section */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px]">
           {/* Product Cards */}
-          {["/Card/pc0.png","/Card/pc1.png","/Card/pc2.png","/Card/pc3.png",
-            "/Card/pc4.png","/Card/pc5.png","/Card/pc6.png","/Card/pc7.png",
+          {["/pc0.png","/pc1.png","/pc2.png","/pc3.png",
+            "/pc4.png","/pc5.png","/pc6.png","/pc7.png",
           ].map((pic, index) => (
             <div key={index} className="w-[240px] h-[615px] mx-auto">
               <div className="w-full h-full">

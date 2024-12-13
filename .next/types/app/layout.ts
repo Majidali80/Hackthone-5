@@ -1,4 +1,4 @@
-// File: D:\project\New folder\Hackthon Templates5\src\app\layout.tsx
+// File: D:\project\New folder\netfly\Hackthon Templates5 Netlify\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

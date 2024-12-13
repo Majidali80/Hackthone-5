@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="w-full h-full lg:h-[500px] lg:w-[1340px] sm:w-[416px] sm:h-[753px] sm:left-[-1px]  md:w-[416px] md:h-[753px] md:left-[-1px]">
         <Image
-          src="/Hero/1.jpg"
+          src="/1.jpg"
           alt="hero image"
           width={1440}
           height={852}

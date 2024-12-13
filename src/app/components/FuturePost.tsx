@@ -11,7 +11,7 @@ export default function Futurepost() {
       title: "Loudest à la Madison #1 (L'Integrál)",
       description:
         "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
-      img: "/Future/fp1.jpeg",
+      img: "/fp1.jpeg",
       date: "22 April 2021",
       comments: 10,
       tag: "NEW",
@@ -24,7 +24,7 @@ export default function Futurepost() {
       title: "Loudest à la Madison #1 (L'Integrál)",
       description:
         "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
-      img: "/Future/fp2.jpeg",
+      img: "/fp2.jpeg",
       date: "22 April 2021",
       comments: 10,
       tag: "NEW",
@@ -37,7 +37,7 @@ export default function Futurepost() {
       title: "Loudest à la Madison #1 (L'Integrál)",
       description:
         "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
-      img: "/Future/fp3.jpeg",
+      img: "/fp3.jpeg",
       date: "22 April 2021",
       comments: 10,
       tag: "NEW",
@@ -98,13 +98,13 @@ export default function Futurepost() {
     <div className="flex justify-between items-center text-gray-500 text-xs mt-4">
         {/* Date with custom icon */}
         <div className="flex items-center space-x-1">
-          <img src="/Future/ic1.png" alt="Calendar Icon" className="w-4 h-4 text-gray-500" />
+          <img src="/ic1.png" alt="Calendar Icon" className="w-4 h-4 text-gray-500" />
           <span>{post.date}</span>
         </div>
 
         {/* Comments with custom icon */}
         <div className="flex items-center space-x-1 mt-3">
-          <img src="/Future/ic2.png" alt="Chat Icon" className="w-4 h-4 text-gray-500" />
+          <img src="/ic2.png" alt="Chat Icon" className="w-4 h-4 text-gray-500" />
           <span>{post.comments} comments</span>
         </div>
       </div>

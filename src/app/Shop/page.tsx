@@ -56,12 +56,12 @@ export default function Home() {
             <div className="flex justify-center space-x-4">
               <span>View</span>
               <img
-                src="/Shop/icon.png" // Replace with your grid icon image path
+                src="/icon.png" // Replace with your grid icon image path
                 alt="Grid view"
                 className="w-6 h-6"
               />
               <img
-                src="/Shop/icon2.png" // Replace with your list icon image path
+                src="/icon2.png" // Replace with your list icon image path
                 alt="List view"
                 className="w-6 h-6"
               />
@@ -94,7 +94,7 @@ export default function Home() {
   <div className="max-w-7xl mx-auto flex justify-center items-center">
     <div className="p-4">
       <img
-        src="/Shop/shop2.png"  // Replace with the actual image path
+        src="/shop2.png"  // Replace with the actual image path
         alt="Shop Image"
         className="w-[1320px] h-[175px] left-[195px]"  // Adjust the size or remove grayscale if needed
       />
@@ -115,17 +115,17 @@ export default function Home() {
           <div className="flex gap-6 mr-36">
             {/* Direct image URLs for social icons */}
             <img
-              src="/Footer/fb.png" // Replace with the correct path to your image
+              src="/fb.png" // Replace with the correct path to your image
               alt="Facebook"
               className="w-6 h-6"
             />
             <img
-              src="/Footer/ins.png" // Replace with the correct path to your image
+              src="/ins.png" // Replace with the correct path to your image
               alt="Instagram"
               className="w-6 h-6"
             />
             <img
-              src="/Footer/tw.png" // Replace with the correct path to your image
+              src="/tw.png" // Replace with the correct path to your image
               alt="Twitter"
               className="w-6 h-6"
             />
@@ -250,9 +250,9 @@ export default function Home() {
        
         {/* Product Cards Section */}
         <section className="w-[1240px] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[0px] bg-[#ffffff] ">
-          {["/Card/1a.png", "/Card/2a.png", "/Card/3.png", "/Card/4a.png",
-            "/Card/5.png", "/Card/6a.png", "/Card/7a.png", "/Card/8a.png",
-            "/Card/9a.png", "/Card/10a.png", "/Card/11a.png", "/Card/12a.png"
+          {["/1a.png", "/2a.png", "/3.png", "/4a.png",
+            "/5.png", "/6a.png", "/7a.png", "/8a.png",
+            "/9a.png", "/10a.png", "/11a.png", "/12a.png"
           ].map((pic, index) => (
             <div key={index} className="w-[240px] h-[615px] mx-auto bg-[#ffffff]">
               <div className="w-full h-full mt-16  ">

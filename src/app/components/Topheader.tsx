@@ -2,10 +2,10 @@ import Image from "next/image";
 
 // Social media icons array
 const socialIcons = [
-  { src: "/Topheader/2.png", alt: "Instagram" },
-  { src: "/Topheader/3.png", alt: "YouTube" },
-  { src: "/Topheader/4.png", alt: "Facebook" },
-  { src: "/Topheader/5.png", alt: "Twitter" },
+  { src: "/t2.png", alt: "Instagram" },
+  { src: "/t3.png", alt: "YouTube" },
+  { src: "/t4.png", alt: "Facebook" },
+  { src: "/t5.png", alt: "Twitter" },
 ];
 
 function Topheader() {
@@ -15,11 +15,11 @@ function Topheader() {
         {/* Left section: Contact Info */}
         <div className="flex gap-2 md:gap-4">
           <button className="flex items-center gap-2 py-2 text-[#FFFFFF] text-xs sm:text-sm md:text-base mt-2">
-            <Image src="/Topheader/0.png" alt="phone" width={16} height={16} />
+            <Image src="/t0.png" alt="phone" width={16} height={16} />
             <span className="font-Montserrat font-semibold"> (225) 555-0118</span>
           </button>
           <button className="flex items-center gap-2 p-2 text-[#FFFFFF] text-xs sm:text-sm md:text-base rounded-[5px] mt-2">
-            <Image src="/Topheader/1.png" alt="mail" width={16} height={16} />
+            <Image src="/t1.png" alt="mail" width={16} height={16} />
             <span className="font-Montserrat">michelle.rivera@example.com</span>
           </button>
         </div>

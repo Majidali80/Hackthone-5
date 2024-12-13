@@ -7,7 +7,7 @@ export default function Univiverse () {
       <div className="w-[1340px] max-w-[1340px] flex flex-col lg:flex-row gap-[30px] px-4 lg:px-0 ">
         {/* Image Section */}
         <div className="relative w-full lg:w-[707px] h-[400px] lg:h-[682px] flex justify-center">
-           <Image src="/Universe/un.png" alt="women" width={707} height={400} />
+           <Image src="/un.png" alt="women" width={707} height={400} />
               </div>
         {/* Text Section */}
         <div className="w-full lg:w-[573px] h-auto flex flex-col gap-[20px] justify-center items-center lg:items-start text-center lg:text-left mt-[20px] lg:mt-0 ml-20">

@@ -19,7 +19,7 @@ export default function Editors() {
           {/* Men Image */}
           <div className="relative w-full sm:w-[510px] h-[500px]">
             <Image
-              src="/Editor/man1.png"
+              src="/man1.png"
               alt="men"
               width={510}
               height={500}
@@ -33,7 +33,7 @@ export default function Editors() {
           {/* Women Image */}
           <div className="relative w-full sm:w-[240px] h-[500px]">
             <Image
-              src="/Editor/girl1.png"
+              src="/girl1.png"
               alt="women"
               width={240}
               height={500}
@@ -51,7 +51,7 @@ export default function Editors() {
             {/* Accessories Image */}
             <div className="relative w-full sm:w-[240px] h-[242px]">
               <Image
-                src="/Editor/girl2.png"
+                src="/girl2.png"
                 alt="accessories"
                 width={240}
                 height={242}
@@ -67,7 +67,7 @@ export default function Editors() {
             {/* Kids Image */}
             <div className="relative w-full sm:w-[240px] h-[242px]">
               <Image
-                src="/Editor/man2.png"
+                src="/man2.png"
                 alt="kids"
                 width={240}
                 height={242}
