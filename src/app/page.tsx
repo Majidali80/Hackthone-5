@@ -17,8 +17,7 @@ export default function Home() {
       <Hero />
       <Editors />
       <ProductCard />
-      <Classman />
-      <Univiverse />
+      <Classman />git remote add origin https://github.com/Majidali80/Bandage.git
        <FuturePost />
        <Footer />
        </>
