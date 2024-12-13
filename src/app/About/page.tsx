@@ -1,6 +1,8 @@
 import Image from "next/image";
-import Navbar from "../components/navbar";
+import Navbar2 from "../components/Navbar2";
 import Footer from "../components/footer";
+import Link from "next/link";
+
 // Define the type for the TeamCard component props
 interface TeamCardProps {
   image: string;       // Image path is a string
@@ -10,10 +12,10 @@ interface TeamCardProps {
   instagram: string;   // Instagram icon path
   twitter: string;     // Twitter icon path
 }
-
+{/* Made By Majid Ali */}
 const TeamCard = ({ image, name, role, facebook, instagram, twitter }: TeamCardProps) => (
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden">
-    <div className="w-full h-[230px] relative">
+    <div className="w-full h-full relative">
       <Image src={image} alt={name} className="object-cover w-full h-full" width={230} height={230} />
     </div>
     <div className="p-6 text-center">
@@ -25,14 +27,18 @@ const TeamCard = ({ image, name, role, facebook, instagram, twitter }: TeamCardP
         <Image src={twitter} alt="Twitter" className="w-6 h-6" width={24} height={24} />
       </div>
     </div>
-  </div>
+  </div> 
 );
-
+{/* Made By Majid Ali */}
 export default function AboutUs() {
   return (
     <div>
-      <Navbar />
-      <div className="relative flex flex-col gap-8 w-[1440px] h-[729px] mt-28 ml-48">
+      <Navbar2 />
+      <div className="w-[1340px] h-[58px] lg:w-[1337px] lg:h-[58px] lg:px-[17px] lg:pl-[38px] sm:w-[418px] sm:h-[1080px] sm:top[536px] flex items-center justify-between gap-[20px]">
+  
+      </div>
+
+      <div className="relative flex flex-col gap-4 w-[1340px] h-[729px] ">
         {/* First Section */}
         <div className="w-full max-w-[1050px] mx-auto flex flex-col items-start lg:gap-[80px] gap-[40px] py-[112px] sm:mb-[50px]">
           <div className="flex flex-col lg:flex-row items-center gap-[30px] w-full lg:w-[1044px] lg:h-[321px]">
@@ -60,24 +66,24 @@ export default function AboutUs() {
             <Image
               src="/About/h2.png"
               alt="girl"
-              className="absolute lg:block hidden lg:left-[-1px] top-[300px] lg:top-[0px]"
-              width={1050} // specify the width and height explicitly
-              height={545}
+              className="absolute lg:block hidden lg:left-[-1px] top-[150px] lg:top-[0px] "
+              width={1250} // specify the width and height explicitly
+              height={645}
             />
           </div>
         </div>
-        <div className="flex flex-col items-center space-y-8 p-4">
+        <div className="flex flex-col items-center space-y-8 p-4 ">
         <section className="flex justify-between items-start max-w-6xl mx-auto p-6">
   {/* Left Column: Heading and Subheading */}
   <div className="w-1/2">
-    <h2 className="text-red-600 text-lg font-semibold mb-2">Problems trying</h2>
+    <h2 className="text-red-600 text-lg font-bold mb-2">Problems trying</h2>
     <h3 className=" w-[370px] h-[96px] text-2xl  mb-4">
       Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
     </h3>
   </div>
 
   {/* Right Column: Additional Text */}
-  <div className="w-1/2 mt-14">
+  <div className="w-1/2 mt-10">
     <p className="text-gray-600">
       Problems trying to resolve the conflict between the two major realms of
       Classical physics: Newtonian mechanics.
@@ -87,12 +93,12 @@ export default function AboutUs() {
 
 
       {/* Section 2: Stats */}
-      <section className="grid grid-cols-4 gap-4 text-center">
-        {[
-          { value: "15K", label: "Happy Customers" },
-          { value: "150K", label: "Monthly Visitors" },
-          { value: "15", label: "Countries Worldwide" },
-          { value: "100+", label: "Top Partners" },
+      <section className="grid grid-cols-4 text-center w-[1140px] h-[264px]">
+        {[ 
+          { value: "15K", label: "Happy Customers" }, 
+          { value: "150K", label: "Monthly Visitors" }, 
+          { value: "15", label: "Countries Worldwide" }, 
+          { value: "100+", label: "Top Partners" }, 
         ].map((stat, index) => (
           <div key={index} className="flex flex-col items-center">
             <h1 className="text-6xl font-bold p-4">{stat.value}</h1>
@@ -100,40 +106,41 @@ export default function AboutUs() {
           </div>
         ))}
       </section>
-
+{/* Made By Majid Ali */}
       {/* Section 3: Video */}
-      <section className="w-full flex justify-center">
-        <div className="rounded-lg overflow-hidden shadow-lg max-w-4xl">
-          <Image
-            src="/About/bg.png" // Replace with your image path
-            alt="Video Placeholder"
-            width={1440}
-            height={264}
-            className="w-full"
+      <section className="w-[1240px] flex justify-center relative ">
+  <div className="rounded-lg overflow-hidden shadow-lg max-w-4xl">
+    <Image
+      src="/About/bg.png" // Replace with your image path
+      alt="Video Placeholder"
+      width={1000}
+      height={264}
+      className="w-[1240px]"
+    />
+    {/* Button in the center */}
+    <div className="absolute inset-0 flex justify-center items-center">
+      <button className="bg-blue-500 p-4 rounded-full shadow-lg w-[92.6px] h-[92.6px]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg" // Corrected xmlns
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="white"
+          className="w-16 h-16"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M15.75 12l-6.75-4.5v9l6.75-4.5z"
           />
-          <div className="absolute inset-0 flex justify-center items-center">
-            <button className="bg-blue-500 p-4 rounded-full shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="white"
-                className="w-8 h-8"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 12l-6.75-4.5v9l6.75-4.5z"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </section>
+        </svg>
+      </button>
     </div>
+  </div>
+</section>
+</div>
         {/* Team Section */}
-        <section className="relative bg-white py-16">
+        <section className="relative bg-white py-10">
           <div className="container mx-auto flex flex-col items-center gap-16 px-4">
             {/* Heading */}
             <div className="text-center max-w-lg">
@@ -142,9 +149,9 @@ export default function AboutUs() {
                 Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
               </p>
             </div>
-
+              {/* Made By Majid Ali */}
             {/* Team Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <TeamCard
                 image="/About/team-1-user-1.jpg"
                 name="John Doe"
@@ -208,7 +215,7 @@ export default function AboutUs() {
         </section>
 
         {/* Grow Section */}
-        <section className="relative w-[1440px] h-[636px] flex bg-[#2A7CC7] justify-center items-center mt-[-30px]">
+        <section className="relative w-[1240px] h-[636px] flex bg-[#2A7CC7] justify-center items-center mt-[-30px]">
           <div className="w-[1440px] md:w-1/2 h-[636px] bg-[#2A7CC7] lg:px-[250px] lg:ml-[0px] ml-[50px] py-16 flex flex-col justify-center">
             <div className="w-[438px] flex flex-col gap-[24px]">
               <h5 className="text-white text-lg font-bold leading-[24px] tracking-[0.1px]">WORK WITH US</h5>
@@ -232,9 +239,8 @@ export default function AboutUs() {
           </div>
         </section>
 
-       
-        <footer />
+        <Footer />
       </div>
-      </div>
+    </div>
   );
 }

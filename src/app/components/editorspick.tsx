@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Editors() {
   return (
-    <div className="w-full h-auto flex justify-center py-[10px] absolute top-[850px] bg-[#FAFAFA]">
-      <div className="w-full sm:w-[1050px] h-auto sm:h-[770px] flex flex-col gap-[48px] px-[20px] sm:p-[80px_0px_80px_0px]">
+    <div className="w-[1340px] h-auto flex justify-center py-[5px] relative bg-[#FAFAFA]">
+      <div className="w-[1437px] sm:w-[1050px] h-auto sm:h-[770px] flex flex-col gap-[48px] px-[20px] sm:p-[80px_0px_80px_0px]">
         {/* Title Section */}
         <div className="flex flex-col items-center gap-[10px]">
           <h3 className="font-Montserrat font-semibold text-[24px] leading-[32px]">

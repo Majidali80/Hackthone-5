@@ -1,10 +1,10 @@
 import Image from "next/image";
 import couples from "@/images/asian-woman-man-with-winter-clothes 1.png";
 
-export default function Whitediv() {
+export default function Univiverse () {
   return (
-    <div className="w-full h-auto absolute mt-[200px] top-[3810px]">
-      <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-[30px] px-4 lg:px-0 ml-48">
+    <div className="w-[1340px] h-auto">
+      <div className="w-[1340px] max-w-[1340px] flex flex-col lg:flex-row gap-[30px] px-4 lg:px-0 ">
         {/* Image Section */}
         <div className="relative w-full lg:w-[707px] h-[400px] lg:h-[682px] flex justify-center">
            <Image src="/Universe/un.png" alt="women" width={707} height={400} />

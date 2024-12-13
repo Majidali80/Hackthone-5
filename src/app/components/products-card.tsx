@@ -2,10 +2,10 @@ import CardText from "./cards-text";
 
 export default function ProductCard() {
   return (
-    <div className="w-full h-auto absolute top-[1470px] left-0 flex justify-center">
+    <div className="w-[1340px] h-[1652px] flex justify-center bg-[#ffffff]">
       <div className="w-full sm:w-[1124px] py-[80px] flex flex-col gap-[80px]">
         {/* Text Section */}
-        <div className="w-full flex flex-col mt-48 gap-[10px] justify-center items-center">
+        <div className="w-full flex flex-col mt-2 gap-[10px] justify-center items-center"> {/* Reduced mt-48 to mt-16 */}
           <h4 className="font-Montserrat font-normal text-[20px] leading-[30px] text-[#737373]">
             Featured Products
           </h4>
